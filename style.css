@@ -5,3 +5,102 @@
     left: 46%;
     top: 80px;
 }
+
+.first-heading {
+    position: relative;
+    width: 445px;
+    height: 128px;
+    top: 240px;
+    left: 33%;
+    font-family: 'Red Hat Display', san-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #28283D;
+}
+
+.description {
+   position: relative;
+   width: 540px;
+   height: 52px;
+   top: 240px; 
+   left: 30%;
+   font-family: 'Red Hat Display', san-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-weight: 18px;
+   line-height: 26px;
+   text-align: center;
+   color: #87879D;
+}
+
+.btn-group {
+    position: relative;
+    width: 348px;
+    height: 58px;
+    top: 240px;
+    left: 36%;
+}
+
+.first-download-btn {
+    position: relative;
+    width: 193px;
+    height: 58px;
+    top: 0px;
+    border-radius: 29px;
+    background-color: #4D96A9;
+    border-color: transparent;
+}
+
+.white-color {
+    position: relative;
+    height: 26px;
+    width: 79px;
+    left: 20.73%;
+    right: 38.34%;
+    top: calc(50% - 26px/2);
+    font-family: 'Red Hat Display', san-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-weight: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.blue-color {
+    position: relative;
+    height: 26px;
+    left: 24.73%;
+    right: 20.73%;
+    bottom: 13px;
+    font-family: 'Red Hat Display', san-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-weight: 16px;
+    line-height: 26px;
+    color: #8FE3F9;
+}
+
+.second-btn {
+    position: relative;
+    width: 139px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: #855FB1;
+    top: 13px;
+    left: 5%;
+    border-color: transparent;
+}
+
+.white-again {
+    position: relative;
+    height: 26px;
+    font-family: 'Red Hat Display', san-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-weight: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
