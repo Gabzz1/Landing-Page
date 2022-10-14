@@ -199,3 +199,38 @@ body {
     line-height: 26px;
     color: #87879D;
 }
+
+.photo-group {
+    position: relative;
+    width: 1110px;
+    height: 242px;
+    left: 6.5%;
+    top: 600px;
+}
+
+.woman-videocall-photo {
+    position: relative;
+    width: 255px;
+    height: 242px;
+}
+
+.women-videochatting-photo {
+    position: relative;
+    width: 255px;
+    height: 242px;
+    left: 25px;
+}
+
+.men-meeting-photo {
+    position: relative;
+    width: 255px;
+    height: 242px;
+    left: 50px;
+}
+
+.man-texting-photo {
+    position: relative;
+    width: 255px;
+    height: 242px;
+    left: 80px;
+}
