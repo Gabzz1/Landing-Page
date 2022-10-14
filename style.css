@@ -234,3 +234,56 @@ body {
     height: 242px;
     left: 80px;
 }
+
+.second-box {
+    position: relative;
+    width: 540px;
+    height: 240px;
+    top: 700px;
+    left: 28.7%;
+}
+
+#overline {
+    position: relative;
+    height: 26px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4D96A9;
+    text-align: center;
+}
+
+.heading-2 {
+    position: relative;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    color: #28283D;
+    bottom: 25px;
+}
+
+.second-mid-box {
+    position: relative;
+    width: 445px;
+    height: 88px;
+    left: 40px;
+}
+
+.second-description {
+    position: relative;
+    bottom: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #87879D;
+}
