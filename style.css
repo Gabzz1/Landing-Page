@@ -8,6 +8,8 @@ body {
     width: 100%;
 }
 
+/*Desktop*/
+
 #logo {
     position: absolute;
     width: 119px;
@@ -81,7 +83,7 @@ body {
 }
 
 .first-download-btn:hover {
-    color: #8FE3F9;
+    background-color: #71C0D4;
 }
 
 .white-color {
@@ -125,7 +127,7 @@ body {
 }
 
 .second-btn:hover {
-    color: #D9B8FF;
+    background-color: #B18BDD;
 }
 
 .white-again {
@@ -367,7 +369,7 @@ body {
 }
 
 .second-download-btn:hover {
-    color: #D9B8FF;
+    background-color: #B18BDD;
 }
 
 .purple-color {
