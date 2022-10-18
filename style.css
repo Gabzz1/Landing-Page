@@ -1,46 +1,39 @@
-html {
-    height: 100%;
-    width: 100%;
-}
-
-body {
-    height: 100%;
-    width: 100%;
-}
-
 /*Desktop*/
+body{
+    width: 1440px;
+    height: 1895px;
+}
 
 #logo {
     position: absolute;
     width: 119px;
     height: 28px;
-    left: 46%;
+    left: 661px;
     top: 80px;
-    text-align: center;
 }
 
 .first-box {
-    position: relative;
-    width: 100%;
-    height: 345px;
-    top: 300px;
+    position: absolute;
+    width: 1504px;
+    height: 358px;
+    top: 215px;
+    left: -32px;
 }
 
 .first-mid-box {
-    position: relative;
-    width: 37.5%;
-    height: 345px;
-    left: 30%;
-    bottom: 350px;
-    text-align: center;
+    position: absolute;
+    width: 540px;
+    height: 304px;
+    left: 485px;
+    bottom: 25px;
 }
 
 .first-heading {
-    position: relative;
+    position: absolute;
     width: 445px;
     height: 128px;
-    top: 10px;
-    left: 5px;
+    left: 45px;
+    top: -20px;
     font-family: 'Red Hat Display', san-serif;
     font-style: normal;
     font-weight: 900;
@@ -51,10 +44,11 @@ body {
 }
 
 .description {
-   position: relative;
+   position: absolute;
    width: 540px;
    height: 52px;
-   right: 30px;
+   left: 5px;
+   top: 160px;
    font-family: 'Red Hat Display', san-serif;
    font-style: normal;
    font-weight: 500;
@@ -68,8 +62,8 @@ body {
     position: relative;
     width: 348px;
     height: 58px;
-    bottom: 10px;
-    left: 50px;
+    top: 240px;
+    left: 100px;
 }
 
 .first-download-btn {
@@ -145,7 +139,7 @@ body {
     position: relative;
     width: 30%;
     height: 345px;
-    right: 42px;
+    right: 15px;
 }
 
 #right-image {
