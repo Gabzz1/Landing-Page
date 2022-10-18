@@ -59,7 +59,7 @@ body{
 }
 
 .btn-group {
-    position: relative;
+    position: absolute;
     width: 348px;
     height: 58px;
     top: 240px;
@@ -150,11 +150,11 @@ body{
 }
 
 .number-one {
-    position: relative;
+    position: absolute;
     width: 56px;
     height: 140px;
-    top: 500px;
-    left: 47%;
+    left: 700px;
+    top: 650px;
 }
 
 .path {
