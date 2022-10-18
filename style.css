@@ -80,6 +80,10 @@ body {
     border-color: transparent;
 }
 
+.first-download-btn:hover {
+    color: #8FE3F9;
+}
+
 .white-color {
     position: relative;
     height: 26px;
@@ -118,6 +122,10 @@ body {
     top: 13px;
     left: 5%;
     border-color: transparent;
+}
+
+.second-btn:hover {
+    color: #D9B8FF;
 }
 
 .white-again {
@@ -356,6 +364,10 @@ body {
     border-radius: 29px;
     background-color: #855FB1;
     border-color: transparent;
+}
+
+.second-download-btn:hover {
+    color: #D9B8FF;
 }
 
 .purple-color {
