@@ -2,6 +2,7 @@
 body{
     width: 1440px;
     height: 1895px;
+    background: #FAFAFA;
 }
 
 #logo {
@@ -153,7 +154,7 @@ body{
     position: absolute;
     width: 56px;
     height: 140px;
-    left: 700px;
+    left: 692px;
     top: 650px;
 }
 
@@ -207,17 +208,18 @@ body{
 }
 
 .photo-group {
-    position: relative;
+    position: absolute;
     width: 1110px;
     height: 242px;
-    left: 6.5%;
-    top: 600px;
+    left: 14%;
+    top: 850px;
 }
 
 .woman-videocall-photo {
     position: relative;
     width: 255px;
     height: 242px;
+    border-radius: 8px;
 }
 
 .women-videochatting-photo {
@@ -225,6 +227,7 @@ body{
     width: 255px;
     height: 242px;
     left: 25px;
+    border-radius: 8px;
 }
 
 .men-meeting-photo {
@@ -232,6 +235,7 @@ body{
     width: 255px;
     height: 242px;
     left: 50px;
+    border-radius: 8px;
 }
 
 .man-texting-photo {
@@ -239,14 +243,15 @@ body{
     width: 255px;
     height: 242px;
     left: 80px;
+    border-radius: 8px;
 }
 
 .second-box {
-    position: relative;
+    position: absolute;
     width: 540px;
     height: 240px;
-    top: 700px;
-    left: 28.7%;
+    top: 1163px;
+    left: 450px;
 }
 
 #overline {
@@ -295,34 +300,35 @@ body{
 }
 
 .number-two {
-    position: relative;
+    position: absolute;
     width: 56px;
     height: 140px;
-    top: 800px;
-    left: 47%;
-    z-index: 2;
+    top: 1530px;
+    left: 692px;
+    z-index: 1;
 }
 
 #footer {
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: 1440px;
     height: 308px;
-    top: 770px;
+    top: 1640px;
     background-color: #4D96A9;
-    z-index: 1;
 }
 
 .image-footer {
+    position: absolute;
+    width: 1440px;
+    height: 308px;
     opacity: 0.1;
-    z-index: 1;
 }
 
 .footer-mid-box {
-    position: relative;
+    position: absolute;
     width: 1110px;
     height: 88px;
-    left: 6.5%;
-    bottom: 200px;
+    left: 11.5%;
+    top: 110px;
 }
 
 .footer-first-mid {
