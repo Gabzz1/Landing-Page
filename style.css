@@ -150,11 +150,11 @@ body{
     height: 345px;
     left: 41.5%;
 }
-/*
+
 #tablet-image-hero{
     display: none;
 }
-*/
+
 .number-one {
     position: absolute;
     width: 56px;
@@ -555,9 +555,11 @@ body{
         height: 153px;
         left: -5px;
     }
+    /*
     #tablet-image-hero {
         display: none;
     }
+    */
     .first-mid-box{
         position: absolute;
         width: 327px;
