@@ -426,7 +426,7 @@ body{
     }
     #tablet-image-hero {
         display: block;
-        width: 100%;
+        width: 1200px;
         height: 303px;
     }
     .first-mid-box {
@@ -502,7 +502,7 @@ body{
     .tablet-image-footer {
         display: block;
         opacity: 0.25;
-        width: 100%;
+        width: 1200px;
         height: 428px;
     }
     .footer-first-mid {
