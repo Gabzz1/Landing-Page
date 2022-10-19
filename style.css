@@ -88,7 +88,7 @@ body{
     width: 79px;
     left: 20.73%;
     right: 38.34%;
-    top: calc(50% - 26px/2);
+    top: 13px;
     font-family: 'Red Hat Display', san-serif;
     font-style: normal;
     font-weight: 900;
@@ -149,6 +149,10 @@ body{
     width: 30%;
     height: 345px;
     left: 41.5%;
+}
+
+#tablet-image-hero{
+    display: none;
 }
 
 .number-one {
@@ -322,6 +326,10 @@ body{
     width: 1440px;
     height: 308px;
     opacity: 0.1;
+}
+
+.tablet-image-footer{
+    display: none;
 }
 
 .footer-mid-box {
@@ -547,6 +555,9 @@ body{
         height: 153px;
         left: -5px;
     }
+    #tablet-image-hero {
+        display: none;
+    }
     .first-mid-box{
         position: absolute;
         width: 327px;
@@ -660,6 +671,9 @@ body{
         position: absolute;
         width: 375px;
         height: 428px;
+    }
+    .tablet-image-footer{
+        display: none;
     }
     .footer-first-mid {
         position: relative;
