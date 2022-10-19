@@ -391,7 +391,6 @@ body{
 @media screen and (max-width:768px) {
     body{
         width: 1200px;
-        border: 1px solid black;
     }
     #logo {
         position: absolute;
@@ -407,7 +406,7 @@ body{
         position: absolute;
         width: 600px;
         height: 303px;
-        left: 640px;
+        left: 600px;
     }
     #left-image {
         position: absolute;
