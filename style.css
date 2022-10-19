@@ -542,35 +542,40 @@ body{
     }
     #logo {
         position: absolute;
-        left: 128px;
+        left: 528px;
     }
     .first-box {
         position: absolute;
-        width: 414px;
-        height: 153px;
-        left: -20px;
+        width: 1145px;
+        height: 353px;
+        left: 0px;
     }
     #right-image {
+        display: none;
         position: absolute;
         width: 199px;
         height: 153px;
         left: 215px;
     }
     #left-image {
+        display: none;
         position: absolute;
         width: 199px;
         height: 153px;
         left: -5px;
     }
     #tablet-image-hero {
-        display: none;
+        display: block;
+        width: 1145px;
+        height: 353px;
     }
+
     .first-mid-box{
         position: absolute;
         width: 327px;
         height: 88px;
-        left: 42px;
-        top: 200px;
+        left: 442px;
+        top: 450px;
     }
     .first-heading {
         position: absolute;
