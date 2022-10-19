@@ -508,6 +508,66 @@ body{
 }
 
 /*mobile*/
-@media only screen and(min-width:320px) and (max-width:425px) {
-
+@media only screen and (min-width:320px) and (max-width:380px) {
+    body {
+        width: 375px;
+        border: 1px solid black;
+    }
+    #logo {
+        position: absolute;
+        left: 128px;
+    }
+    .first-box {
+        position: absolute;
+        width: 414px;
+        height: 153px;
+        left: -20px;
+    }
+    #right-image {
+        position: absolute;
+        width: 199px;
+        height: 153px;
+        left: 215px;
+    }
+    #left-image {
+        position: absolute;
+        width: 199px;
+        height: 153px;
+        left: -5px;
+    }
+    .first-mid-box{
+        position: absolute;
+        width: 327px;
+        height: 88px;
+        left: 42px;
+        top: 200px;
+    }
+    .first-heading {
+        position: absolute;
+        width: 327px;
+        left: 10px;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+    }
+    .description {
+        position: absolute;
+        width: 327px;
+        height: 78px;
+        top: 100px;
+    }
+    .first-download-btn {
+        position: relative;
+        right: 22px;
+    }
+    .btn-group {
+        position: relative;
+        top: 220px;
+    }
+    .second-btn {
+        position: relative;
+        top: 90px;
+        left: -190px;
+    }
 }
