@@ -3,6 +3,7 @@ body{
     width: 1440px;
     height: 1895px;
     background: #FAFAFA;
+    margin: 0;
 }
 
 #logo {
@@ -384,4 +385,129 @@ body{
     font-weight: 16px;
     line-height: 26px;
     color: #D9B8FF;
+}
+
+/*Tablet*/
+@media only screen and (max-width:768px) {
+    body{
+        width: 768px;
+        height: 2128px;
+    }
+    #logo {
+        position: absolute;
+        left: 354px;
+    }
+    .first-box {
+        position: absolute;
+        width: 820px;
+        height: 303px;
+        left: -27px;
+    }
+    #right-image {
+        position: absolute;
+        width: 394px;
+        height: 303px;
+        left: 440px;
+    }
+    #left-image {
+        position: absolute;
+        width: 394px;
+        height: 303px;
+        left: -3px;
+    }
+    .first-mid-box {
+        position: absolute;
+        width: 457px;
+        height: 262px;
+        left: 190px;
+        top: 355px;
+    }
+    .first-heading{
+        position: absolute;
+        left: 65px;
+    }
+    .number-one {
+        position: absolute;
+        left: 400px;
+        top: 957px;
+    }
+    .photo-group {
+        position: absolute;
+        width: 689px;
+        height: 156px;
+        top: 1164px;
+        left: 85px;
+    }
+    .woman-videocall-photo {
+        width: 164px;
+        height: 156px;
+    }
+    .women-videochatting-photo {
+        width: 164px;
+        height: 156px;
+        left: 8px;
+    }
+    .men-meeting-photo {
+        width: 164px;
+        height: 156px;
+        left: 16px;
+    }
+    .man-texting-photo {
+        width: 164px;
+        height: 156px;
+        left: 24px;
+    }
+    .second-box {
+        position: absolute;
+        width: 573px;
+        height: 240px;
+        left: 147px;
+        top: 1368px;
+    }
+    .second-mid-box {
+        position: relative;
+        left: 65px;
+    }
+    .number-two{
+        position: absolute;
+        top: 1700px;
+        left: 400px;
+    }
+    #footer {
+        position: absolute;
+        width: 840px;
+        height: 428px;
+        top: 1810px;
+    }
+    .image-footer {
+        position: absolute;
+        width: 840px;
+        height: 428px;
+    }
+    .footer-first-mid {
+        position: relative;
+        width: 457px;
+        height: 88px;
+        left: 90px;
+        bottom: 40px;
+        text-align: center;
+    }
+    .footer-second-mid {
+        position: relative;
+        width: 573px;
+        height: 52px;
+        top: 0px;
+        left: 20px;
+        text-align: center;
+    }
+    .second-download-btn {
+        position: relative;
+        top: 40px;
+        left: 210px;
+    }
+}
+
+/*mobile*/
+@media only screen and(min-width:320px) and (max-width:425px) {
+
 }
