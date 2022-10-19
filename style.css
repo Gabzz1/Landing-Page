@@ -388,39 +388,39 @@ body{
 }
 
 /*Tablet*/
-@media only screen and (max-width:768px) {
+@media screen and (max-width:768px) {
     body{
-        width: 768px;
-        height: 2128px;
+        width: 1200px;
+        border: 1px solid black;
     }
     #logo {
         position: absolute;
-        left: 354px;
+        left: 570px;
     }
     .first-box {
         position: absolute;
-        width: 820px;
+        width: 1200px;
         height: 303px;
-        left: -27px;
+        left: 0px;
     }
     #right-image {
         position: absolute;
-        width: 394px;
+        width: 600px;
         height: 303px;
-        left: 440px;
+        left: 640px;
     }
     #left-image {
         position: absolute;
-        width: 394px;
+        width: 600px;
         height: 303px;
-        left: -3px;
+        left: -30px;
     }
     .first-mid-box {
         position: absolute;
         width: 457px;
         height: 262px;
-        left: 190px;
-        top: 355px;
+        left: 360px;
+        top: 365px;
     }
     .first-heading{
         position: absolute;
@@ -428,40 +428,40 @@ body{
     }
     .number-one {
         position: absolute;
-        left: 400px;
+        left: 600px;
         top: 957px;
     }
     .photo-group {
         position: absolute;
-        width: 689px;
+        width: 889px;
         height: 156px;
         top: 1164px;
-        left: 85px;
+        left: 165px;
     }
     .woman-videocall-photo {
-        width: 164px;
+        width: 215px;
         height: 156px;
     }
     .women-videochatting-photo {
-        width: 164px;
-        height: 156px;
-        left: 8px;
-    }
-    .men-meeting-photo {
-        width: 164px;
+        width: 215px;
         height: 156px;
         left: 16px;
     }
-    .man-texting-photo {
-        width: 164px;
+    .men-meeting-photo {
+        width: 215px;
         height: 156px;
-        left: 24px;
+        left: 32px;
+    }
+    .man-texting-photo {
+        width: 215px;
+        height: 156px;
+        left: 48px;
     }
     .second-box {
         position: absolute;
         width: 573px;
         height: 240px;
-        left: 147px;
+        left: 360px;
         top: 1368px;
     }
     .second-mid-box {
@@ -471,24 +471,24 @@ body{
     .number-two{
         position: absolute;
         top: 1700px;
-        left: 400px;
+        left: 600px;
     }
     #footer {
         position: absolute;
-        width: 840px;
+        width: 1200px;
         height: 428px;
         top: 1810px;
     }
     .image-footer {
         position: absolute;
-        width: 840px;
+        width: 1200px;
         height: 428px;
     }
     .footer-first-mid {
         position: relative;
         width: 457px;
         height: 88px;
-        left: 90px;
+        left: 260px;
         bottom: 40px;
         text-align: center;
     }
@@ -497,13 +497,13 @@ body{
         width: 573px;
         height: 52px;
         top: 0px;
-        left: 20px;
+        left: 205px;
         text-align: center;
     }
     .second-download-btn {
         position: relative;
         top: 40px;
-        left: 210px;
+        left: 400px;
     }
 }
 
@@ -511,7 +511,6 @@ body{
 @media only screen and (min-width:320px) and (max-width:380px) {
     body {
         width: 375px;
-        border: 1px solid black;
     }
     #logo {
         position: absolute;
