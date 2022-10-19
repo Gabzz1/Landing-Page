@@ -332,6 +332,10 @@ body{
     display: none;
 }
 
+.mobile-image-footer{
+    display: none;
+}
+
 .footer-mid-box {
     position: absolute;
     width: 1110px;
@@ -505,6 +509,9 @@ body{
         width: 1200px;
         height: 428px;
     }
+    .mobile-image-footer{
+        display: none;
+    }
     .footer-first-mid {
         position: relative;
         width: 457px;
@@ -529,9 +536,9 @@ body{
 }
 
 /*mobile*/
-@media only screen and (min-width:320px) and (max-width:380px) {
+@media only screen and (min-width:320px) and (max-width:426px) {
     body {
-        width: 375px;
+        width: 100%;
     }
     #logo {
         position: absolute;
@@ -555,11 +562,9 @@ body{
         height: 153px;
         left: -5px;
     }
-    /*
     #tablet-image-hero {
         display: none;
     }
-    */
     .first-mid-box{
         position: absolute;
         width: 327px;
@@ -670,12 +675,19 @@ body{
         top: 1860px;
     }
     .image-footer {
+        display: none;
         position: absolute;
         width: 375px;
         height: 428px;
     }
     .tablet-image-footer{
         display: none;
+    }
+    .mobile-image-footer {
+        display: block;
+        width: 375px;
+        height: 428px;
+        opacity: 0.25;
     }
     .footer-first-mid {
         position: relative;
@@ -691,6 +703,7 @@ body{
         width: 327px;
         height: 78px;
         left: -20px;
+        top: 20px;
         font-size: 18px;
         line-height: 26px;
         text-align: center;
@@ -698,6 +711,7 @@ body{
     .second-download-btn {
         position: relative;
         left: 50px;
+        top: 60px;
     }
 }
 
