@@ -388,9 +388,9 @@ body{
 }
 
 /*Tablet*/
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) and (max-width: 1201px) {
     body{
-        width: 1200px;
+        width: 100%;
     }
     #logo {
         position: absolute;
@@ -403,16 +403,23 @@ body{
         left: 0px;
     }
     #right-image {
+        display: none;
         position: absolute;
         width: 600px;
         height: 303px;
         left: 600px;
     }
     #left-image {
+        display: none;
         position: absolute;
         width: 600px;
         height: 303px;
         left: -30px;
+    }
+    #tablet-image-hero {
+        display: block;
+        width: 100%;
+        height: 303px;
     }
     .first-mid-box {
         position: absolute;
@@ -479,8 +486,15 @@ body{
         top: 1810px;
     }
     .image-footer {
+        display: none;
         position: absolute;
         width: 1200px;
+        height: 428px;
+    }
+    .tablet-image-footer {
+        display: block;
+        opacity: 0.25;
+        width: 100%;
         height: 428px;
     }
     .footer-first-mid {
