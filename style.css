@@ -315,7 +315,7 @@ body{
 
 #footer {
     position: absolute;
-    width: 1440px;
+    width: 1504px;
     height: 308px;
     top: 1640px;
     background-color: #4D96A9;
@@ -323,7 +323,7 @@ body{
 
 .image-footer {
     position: absolute;
-    width: 1440px;
+    width: 1504px;
     height: 308px;
     opacity: 0.1;
 }
@@ -400,7 +400,7 @@ body{
 }
 
 /*Tablet*/
-@media screen and (min-width:768px) and (max-width: 1201px) {
+@media screen and (min-width:768px) and (max-width: 1200px) {
     body{
         width: 100%;
     }
@@ -430,7 +430,7 @@ body{
     }
     #tablet-image-hero {
         display: block;
-        width: 1200px;
+        width: 1242px;
         height: 303px;
     }
     .first-mid-box {
@@ -493,7 +493,7 @@ body{
     }
     #footer {
         position: absolute;
-        width: 1200px;
+        width: 1242px;
         height: 428px;
         top: 1810px;
     }
@@ -506,7 +506,7 @@ body{
     .tablet-image-footer {
         display: block;
         opacity: 0.25;
-        width: 1200px;
+        width: 1242px;
         height: 428px;
     }
     .mobile-image-footer{
@@ -543,11 +543,12 @@ body{
     }
     #logo {
         position: absolute;
-        left: 528px;
+        left: 600px;
+
     }
     .first-box {
         position: absolute;
-        width: 1145px;
+        width: 1240px;
         height: 353px;
         left: 0px;
     }
@@ -567,7 +568,7 @@ body{
     }
     #tablet-image-hero {
         display: block;
-        width: 1145px;
+        width: 1240px;
         height: 353px;
     }
 
@@ -575,7 +576,7 @@ body{
         position: absolute;
         width: 527px;
         height: 188px;
-        left: 442px;
+        left: 422px;
         top: 450px;
     }
     .first-heading {
@@ -607,47 +608,47 @@ body{
     .second-btn {
         position: relative;
         top: 90px;
-        left: -155px;
+        left: -150px;
     }
     .number-one {
         position: absolute;
-        left: 600px;
+        left: 610px;
         top: 1150px;
     }
     .photo-group {
         position: absolute;
-        width: 1045px;
+        width: 1000px;
         height: 560px;
-        left: 55px;
+        left: 100px;
         top: 1400px;
     }
     .woman-videocall-photo {
         width: 440px;
         height: 255px;
-        left: 40px;
+        left: 70px;
     }
     .women-videochatting-photo {
         width: 440px;
         height: 255px;
-        left: 145px;
+        left: 115px;
     }
     .men-meeting-photo {
         width: 440px;
         height: 255px;
-        left: 40px;
+        left: 70px;
         top: 40px;
     }
     .man-texting-photo {
         width: 440px;
         height: 255px;
-        left: 145px;
+        left: 115px;
         top: 40px;
     }
     .second-box {
         position: absolute;
         width: 527px;
         height: 284px;
-        left: 350px;
+        left: 380px;
         top: 2050px;
     }
     .second-mid-box {
@@ -679,11 +680,11 @@ body{
     .number-two {
         position: absolute;
         top: 2500px;
-        left: 600px;
+        left: 610px;
     }
     #footer {
         position: absolute;
-        width: 1045px;
+        width: 1240px;
         height: 428px;
         top: 2610px;
     }
@@ -698,7 +699,7 @@ body{
     }
     .mobile-image-footer {
         display: block;
-        width: 1045px;
+        width: 1240px;
         height: 428px;
         opacity: 0.25;
     }
@@ -706,7 +707,7 @@ body{
         position: relative;
         width: 357px;
         height: 72px;
-        left: 280px;
+        left: 320px;
         bottom: 30px;
         font-size: 40px;
         line-height: 44px;
@@ -716,7 +717,7 @@ body{
         position: relative;
         width: 327px;
         height: 78px;
-        left: 300px;
+        left: 340px;
         top: 20px;
         font-size: 18px;
         line-height: 26px;
@@ -724,7 +725,7 @@ body{
     }
     .second-download-btn {
         position: relative;
-        left: 350px;
+        left: 395px;
         top: 60px;
     }
 }
