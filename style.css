@@ -548,20 +548,20 @@ body{
 @media only screen and (min-width:320px) and (max-width:426px) {
     body {
         width: 100%;
-        height: 100%;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     #logo {
         position: absolute;
-        left: 600px;
+        left: 168px;
+        overflow-x: hidden;
 
     }
     .first-box {
         position: absolute;
-        width: 100%;
-        height: 353px;
-        left: 0px;
-        border: 1px solid;
+        width: 414px;
+        height: 153px;
+        left: -20px;
+        overflow: hidden;
     }
     #right-image {
         display: none;
@@ -579,8 +579,9 @@ body{
     }
     #tablet-image-hero {
         display: block;
-        width: 1240px;
-        height: 353px;
+        width: 434px;
+        height: 153px;
+        overflow: hidden;
     }
 
     .first-mid-box{
@@ -694,8 +695,8 @@ body{
         left: 610px;
     }
     #footer {
-        position: absolute;
-        width: 1240px;
+        position: relative;
+        width: 425px;
         height: 428px;
         top: 2610px;
     }
@@ -710,7 +711,7 @@ body{
     }
     .mobile-image-footer {
         display: block;
-        width: 1240px;
+        width: 425px;
         height: 428px;
         opacity: 0.25;
     }
