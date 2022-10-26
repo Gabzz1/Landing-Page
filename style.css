@@ -552,7 +552,7 @@ body{
     }
     #logo {
         position: absolute;
-        left: 128px;
+        left: 138px;
         /*overflow-x: hidden;*/
     }
     #right-image {
@@ -572,17 +572,16 @@ body{
     #tablet-image-hero {
         display: block;
         position: relative;
-        width: 454px;
+        width: 440px;
         height: 153px;
-        left: -5px;
+        left: -15px;
         top: 0px;
     }
     .first-box {
         position: relative;
-        width: 434px;
+        width: 414px;
         height: 600px;
-        left: 20px;
-        border: 1px solid black;
+        left: 30px;
         overflow-x: hidden;
     }
 
@@ -590,7 +589,7 @@ body{
         position: absolute;
         width: 327px;
         height: 388px;
-        left: 77px;
+        left: 47px;
         top: 211px;
     }
     .first-heading {
@@ -627,66 +626,68 @@ body{
     }
     .number-one {
         position: absolute;
-        left: 610px;
-        top: 1150px;
+        left: 180px;
+        top: 950px;
     }
     .photo-group {
         position: absolute;
         width: 327px;
         height: 310px;
-        left: 100px;
-        top: 1400px;
+        left: 0px;
+        top: 1200px;
     }
     .woman-videocall-photo {
         width: 151px;
         height: 143px;
-        left: 70px;
+        left: 50px;
     }
     .women-videochatting-photo {
         width: 151px;
         height: 143px;
-        left: 115px;
+        left: 65px;
     }
     .men-meeting-photo {
         width: 151px;
         height: 143px;
-        left: 70px;
-        top: 40px;
+        left: 50px;
+        top: 20px;
     }
     .man-texting-photo {
         width: 151px;
         height: 143px;
-        left: 115px;
-        top: 40px;
+        left: 65px;
+        top: 20px;
     }
     .second-box {
         position: absolute;
-        width: 527px;
+        width: 327px;
         height: 284px;
-        left: 380px;
-        top: 2050px;
+        left: 50px;
+        top: 1580px;
     }
     .second-mid-box {
         position: relative;
-        width: 397px;
+        width: 327px;
         height: 72px;
         top: 10px;
+        left: 0px;
         text-align: center;
     }
     .heading-2 {
         position: relative;
         font-weight: 900;
-        font-size: 40px;
-        line-height: 44px;
-        left: 30px;
+        font-size: 32px;
+        line-height: 36px;
+        left: 0px;
+        top: -5px;
         text-align: center;
     }
     .second-description {
         position: relative;
-        width: 325px;
+        width: 327px;
         height: 130px;
-        left: 100px;
-        top: 5px;
+        left: 0px;
+        top: 10px;
         font-size: 16px;
         line-height: 26px;
         font-weight: 500;
@@ -694,19 +695,20 @@ body{
     }
     .number-two {
         position: absolute;
-        top: 2500px;
-        left: 610px;
+        top: 1950px;
+        left: 180px;
     }
     #footer {
         position: relative;
-        width: 425px;
+        width: 440px;
         height: 428px;
-        top: 2610px;
+        top: 1460px;
+        overflow-x: hidden;
     }
     .image-footer {
         display: none;
         position: absolute;
-        width: 375px;
+        width: 425px;
         height: 428px;
     }
     .tablet-image-footer{
@@ -714,25 +716,25 @@ body{
     }
     .mobile-image-footer {
         display: block;
-        width: 425px;
+        width: 440px;
         height: 428px;
         opacity: 0.25;
     }
     .footer-first-mid {
         position: relative;
-        width: 357px;
+        width: 327px;
         height: 72px;
-        left: 320px;
+        left: 25px;
         bottom: 30px;
-        font-size: 40px;
-        line-height: 44px;
+        font-size: 32px;
+        line-height: 36px;
         text-align: center;
     }
     .footer-second-mid {
         position: relative;
         width: 327px;
         height: 78px;
-        left: 340px;
+        left: 25px;
         top: 20px;
         font-size: 18px;
         line-height: 26px;
@@ -740,7 +742,7 @@ body{
     }
     .second-download-btn {
         position: relative;
-        left: 395px;
+        left: 95px;
         top: 60px;
     }
 }
